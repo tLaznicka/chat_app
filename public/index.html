@@ -1,0 +1,22 @@
+<!-- 
+    This is the index.html file for the Chat App.
+    It contains the structure and elements of the webpage.
+-->
+
+<!DOCTYPE html> <!-- Defines the document type -->
+<html lang="en"> <!-- Start of HTML document with English language -->
+
+<head> <!-- Head section of the HTML document -->
+    <meta charset="UTF-8"> <!-- Defines the character set for the document -->
+    <title>Chat App</title> <!-- Title of the webpage -->
+    <script src="/socket.io/socket.io.js"></script> <!-- Importing Socket.IO library -->
+    <script src="js/main.js"></script> <!-- Importing main JavaScript file -->
+</head> <!-- End of head section -->
+
+<body> <!-- Body section of the HTML document -->
+    <div id="messages"></div> <!-- Div to display messages -->
+    <input type="text" id="messageInput"> <!-- Input field to type messages -->
+    <button onclick="sendMessage()">Send</button> <!-- Button to send messages -->
+</body> <!-- End of body section -->
+
+</html> <!-- End of HTML document -->
